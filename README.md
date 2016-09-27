@@ -14,6 +14,12 @@ it, simply add the following line to your Podfile:
 pod "TorpedoUI"
 ```
 
+
+Then on app start
+```swift
+ TorpedoUI.use()
+```
+
 ## Author
 
 Hisham
