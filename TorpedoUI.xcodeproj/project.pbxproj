@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53BE24D1D9A690C009B3A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE24C1D9A690C009B3A1F /* AppDelegate.swift */; };
+		D53BE24F1D9A690C009B3A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE24E1D9A690C009B3A1F /* ViewController.swift */; };
+		D53BE2521D9A690C009B3A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53BE2501D9A690C009B3A1F /* Main.storyboard */; };
+		D53BE2541D9A690C009B3A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53BE2531D9A690C009B3A1F /* Assets.xcassets */; };
+		D53BE2571D9A690C009B3A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53BE2551D9A690C009B3A1F /* LaunchScreen.storyboard */; };
+		D53BE2691D9A69E2009B3A1F /* UIColorCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2601D9A69E2009B3A1F /* UIColorCreate.swift */; };
+		D53BE26A1D9A69E2009B3A1F /* UITableViewManipulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2621D9A69E2009B3A1F /* UITableViewManipulate.swift */; };
+		D53BE26B1D9A69E2009B3A1F /* UIViewFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2631D9A69E2009B3A1F /* UIViewFrame.swift */; };
+		D53BE26C1D9A69E2009B3A1F /* UIViewSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2641D9A69E2009B3A1F /* UIViewSorter.swift */; };
+		D53BE26D1D9A69E2009B3A1F /* UIViewSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2651D9A69E2009B3A1F /* UIViewSubviews.swift */; };
+		D53BE26E1D9A69E2009B3A1F /* UINavigationControllerManipulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2671D9A69E2009B3A1F /* UINavigationControllerManipulate.swift */; };
+		D53BE26F1D9A69E2009B3A1F /* UIViewControllerVisibilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2681D9A69E2009B3A1F /* UIViewControllerVisibilty.swift */; };
+		D53BE2711D9A69EF009B3A1F /* TorpedoUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2701D9A69EF009B3A1F /* TorpedoUI.swift */; };
+		D53BE2741D9A6B3D009B3A1F /* QuickHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BE2731D9A6B3D009B3A1F /* QuickHelpers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D53BE2491D9A690C009B3A1F /* TorpedoUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorpedoUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53BE24C1D9A690C009B3A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D53BE24E1D9A690C009B3A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D53BE2511D9A690C009B3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D53BE2531D9A690C009B3A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D53BE2561D9A690C009B3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D53BE2581D9A690C009B3A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53BE2601D9A69E2009B3A1F /* UIColorCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorCreate.swift; sourceTree = "<group>"; };
+		D53BE2621D9A69E2009B3A1F /* UITableViewManipulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewManipulate.swift; sourceTree = "<group>"; };
+		D53BE2631D9A69E2009B3A1F /* UIViewFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewFrame.swift; sourceTree = "<group>"; };
+		D53BE2641D9A69E2009B3A1F /* UIViewSorter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewSorter.swift; sourceTree = "<group>"; };
+		D53BE2651D9A69E2009B3A1F /* UIViewSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewSubviews.swift; sourceTree = "<group>"; };
+		D53BE2671D9A69E2009B3A1F /* UINavigationControllerManipulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerManipulate.swift; sourceTree = "<group>"; };
+		D53BE2681D9A69E2009B3A1F /* UIViewControllerVisibilty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerVisibilty.swift; sourceTree = "<group>"; };
+		D53BE2701D9A69EF009B3A1F /* TorpedoUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorpedoUI.swift; sourceTree = "<group>"; };
+		D53BE2731D9A6B3D009B3A1F /* QuickHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickHelpers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53BE2461D9A690C009B3A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53BE2401D9A690C009B3A1F = {
+			isa = PBXGroup;
+			children = (
+				D53BE24B1D9A690C009B3A1F /* TorpedoUI */,
+				D53BE24A1D9A690C009B3A1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D53BE24A1D9A690C009B3A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53BE2491D9A690C009B3A1F /* TorpedoUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53BE24B1D9A690C009B3A1F /* TorpedoUI */ = {
+			isa = PBXGroup;
+			children = (
+				D53BE25E1D9A69E2009B3A1F /* Classes */,
+				D53BE24C1D9A690C009B3A1F /* AppDelegate.swift */,
+				D53BE24E1D9A690C009B3A1F /* ViewController.swift */,
+				D53BE2501D9A690C009B3A1F /* Main.storyboard */,
+				D53BE2531D9A690C009B3A1F /* Assets.xcassets */,
+				D53BE2551D9A690C009B3A1F /* LaunchScreen.storyboard */,
+				D53BE2581D9A690C009B3A1F /* Info.plist */,
+			);
+			path = TorpedoUI;
+			sourceTree = "<group>";
+		};
+		D53BE25E1D9A69E2009B3A1F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D53BE2721D9A6B3D009B3A1F /* Helpers */,
+				D53BE25F1D9A69E2009B3A1F /* UIColor */,
+				D53BE2611D9A69E2009B3A1F /* UIView */,
+				D53BE2661D9A69E2009B3A1F /* UIViewController */,
+				D53BE2701D9A69EF009B3A1F /* TorpedoUI.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D53BE25F1D9A69E2009B3A1F /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				D53BE2601D9A69E2009B3A1F /* UIColorCreate.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		D53BE2611D9A69E2009B3A1F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D53BE2621D9A69E2009B3A1F /* UITableViewManipulate.swift */,
+				D53BE2631D9A69E2009B3A1F /* UIViewFrame.swift */,
+				D53BE2641D9A69E2009B3A1F /* UIViewSorter.swift */,
+				D53BE2651D9A69E2009B3A1F /* UIViewSubviews.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D53BE2661D9A69E2009B3A1F /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D53BE2671D9A69E2009B3A1F /* UINavigationControllerManipulate.swift */,
+				D53BE2681D9A69E2009B3A1F /* UIViewControllerVisibilty.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		D53BE2721D9A6B3D009B3A1F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D53BE2731D9A6B3D009B3A1F /* QuickHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53BE2481D9A690C009B3A1F /* TorpedoUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53BE25B1D9A690C009B3A1F /* Build configuration list for PBXNativeTarget "TorpedoUI" */;
+			buildPhases = (
+				D53BE2451D9A690C009B3A1F /* Sources */,
+				D53BE2461D9A690C009B3A1F /* Frameworks */,
+				D53BE2471D9A690C009B3A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorpedoUI;
+			productName = TorpedoUI;
+			productReference = D53BE2491D9A690C009B3A1F /* TorpedoUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53BE2411D9A690C009B3A1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Onavoy;
+				TargetAttributes = {
+					D53BE2481D9A690C009B3A1F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D53BE2441D9A690C009B3A1F /* Build configuration list for PBXProject "TorpedoUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53BE2401D9A690C009B3A1F;
+			productRefGroup = D53BE24A1D9A690C009B3A1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53BE2481D9A690C009B3A1F /* TorpedoUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53BE2471D9A690C009B3A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53BE2571D9A690C009B3A1F /* LaunchScreen.storyboard in Resources */,
+				D53BE2541D9A690C009B3A1F /* Assets.xcassets in Resources */,
+				D53BE2521D9A690C009B3A1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53BE2451D9A690C009B3A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53BE26D1D9A69E2009B3A1F /* UIViewSubviews.swift in Sources */,
+				D53BE2711D9A69EF009B3A1F /* TorpedoUI.swift in Sources */,
+				D53BE24F1D9A690C009B3A1F /* ViewController.swift in Sources */,
+				D53BE26B1D9A69E2009B3A1F /* UIViewFrame.swift in Sources */,
+				D53BE26F1D9A69E2009B3A1F /* UIViewControllerVisibilty.swift in Sources */,
+				D53BE26E1D9A69E2009B3A1F /* UINavigationControllerManipulate.swift in Sources */,
+				D53BE24D1D9A690C009B3A1F /* AppDelegate.swift in Sources */,
+				D53BE2741D9A6B3D009B3A1F /* QuickHelpers.swift in Sources */,
+				D53BE26C1D9A69E2009B3A1F /* UIViewSorter.swift in Sources */,
+				D53BE2691D9A69E2009B3A1F /* UIColorCreate.swift in Sources */,
+				D53BE26A1D9A69E2009B3A1F /* UITableViewManipulate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D53BE2501D9A690C009B3A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53BE2511D9A690C009B3A1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D53BE2551D9A690C009B3A1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53BE2561D9A690C009B3A1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D53BE2591D9A690C009B3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D53BE25A1D9A690C009B3A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D53BE25C1D9A690C009B3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TorpedoUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onavoy.TorpedoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D53BE25D1D9A690C009B3A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TorpedoUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onavoy.TorpedoUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53BE2441D9A690C009B3A1F /* Build configuration list for PBXProject "TorpedoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53BE2591D9A690C009B3A1F /* Debug */,
+				D53BE25A1D9A690C009B3A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53BE25B1D9A690C009B3A1F /* Build configuration list for PBXNativeTarget "TorpedoUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53BE25C1D9A690C009B3A1F /* Debug */,
+				D53BE25D1D9A690C009B3A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D53BE2411D9A690C009B3A1F /* Project object */;
+}
