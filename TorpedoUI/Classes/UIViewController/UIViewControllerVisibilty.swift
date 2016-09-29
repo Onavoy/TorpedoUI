@@ -61,11 +61,11 @@ public extension UIViewController {
         }
     }
     
-    public func firstViewWillAppear(_ animated: Bool) {
+    open func firstViewWillAppear(_ animated: Bool) {
         //Called only once when view first appears
     }
     
-    public func firstViewDidAppear(_ animated: Bool) {
+    open func firstViewDidAppear(_ animated: Bool) {
         //Called only once when view first appears
     }
     
