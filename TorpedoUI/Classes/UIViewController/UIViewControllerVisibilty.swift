@@ -13,6 +13,14 @@ public extension UIViewController {
     public var isVisible: Bool {
         return isVisibleToggle
     }
+
+    public var isFirstWillAppear: Bool {
+        return !willAppearFirstTimeDone
+    }
+
+    public var isFirstDidAppear: Bool {
+        return !didAppearFirstTimeDone
+    }
     
     static func configure_torpedoui_visibility() {
         
@@ -46,27 +54,13 @@ public extension UIViewController {
     
     func swifter_viewWillAppear(_ animated: Bool) {
         swifter_viewWillAppear(animated)
-        if !willAppearFirstTimeDone {
-            willAppearFirstTimeDone = true
-            firstViewWillAppear(animated)
-        }
+        willAppearFirstTimeDone = true
     }
     
     func swifter_viewDidAppear(_ animated: Bool) {
         swifter_viewDidAppear(animated)
         isVisibleToggle = true
-        if !didAppearFirstTimeDone {
-            didAppearFirstTimeDone = true
-            firstViewDidAppear(animated)
-        }
-    }
-    
-    open func firstViewWillAppear(_ animated: Bool) {
-        //Called only once when view first appears
-    }
-    
-    open func firstViewDidAppear(_ animated: Bool) {
-        //Called only once when view first appears
+        didAppearFirstTimeDone = true
     }
     
     func swifter_viewDidDisappear(_ animated: Bool) {
